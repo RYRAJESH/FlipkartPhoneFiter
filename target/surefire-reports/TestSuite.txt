@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 25.22 s <<< FAILURE! - in TestSuite
+com.flipkart.phones.FilterPhones.beforeClass  Time elapsed: 24.723 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-39VEO8O', ip: '192.168.43.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+	at com.flipkart.phones.FilterPhones.beforeClass(FilterPhones.java:43)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:35150/status] to be available after 20008 ms
+	at com.flipkart.phones.FilterPhones.beforeClass(FilterPhones.java:43)
+Caused by: java.util.concurrent.TimeoutException
+	at com.flipkart.phones.FilterPhones.beforeClass(FilterPhones.java:43)
+
+com.flipkart.phones.FilterPhones.afterClass  Time elapsed: 24.752 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.flipkart.phones.FilterPhones.afterClass(FilterPhones.java:107)
+

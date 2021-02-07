@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Phones]">
+  <test thread-count="5" verbose="0" name="GetiPhones(failed)">
+    <classes>
+      <class name="com.flipkart.phones.FilterPhones">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="fetchIphones"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.flipkart.phones.FilterPhones -->
+    </classes>
+  </test> <!-- GetiPhones(failed) -->
+</suite> <!-- Failed suite [Phones] -->
